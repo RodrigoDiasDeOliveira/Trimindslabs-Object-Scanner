@@ -455,6 +455,8 @@ pytest
 
 # 📚 Documentation
 
+The architecture and ADRs record intended decisions; they do not by themselves prove that the referenced backend, model, database or cloud integrations are present in this repository. See the [ObjectScanner V1 README/ADR/code evidence review](docs/object-scanner-v1-code-evidence-review-2026-10-11.md) for the tracked-tree comparison and explicit verification boundaries.
+
 Project documentation includes:
 
 * Architecture Decision Records (ADRs)
