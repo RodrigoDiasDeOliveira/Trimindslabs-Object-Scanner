@@ -1,5 +1,8 @@
 # 📦 Triminds ObjectScanner
 
+> **Current repository evidence boundary (reviewed 2026-10-11):** this repository snapshot contains the Android client, but the tracked tree does not contain the `PythonBackend/` or `OracleDatabase/` directories described in older sections below. The Android app captures an image and uploads it to a remote `/detect` endpoint; this repository alone does not prove that YOLO inference, Azure fallback, Oracle persistence, offline retry, or an end-to-end deployment is available. Treat those items as documented target/legacy architecture until the implementation is linked and validated. See [the source-evidence review](docs/object-scanner-v1-code-evidence-review-2026-10-11.md) and [ADR index](docs/ADR-INDEX.md). This is a separate repository generation from ObjectScanner V2.
+
+
 ![Platform](https://img.shields.io/badge/Triminds-Platform-blue)
 ![Computer Vision](https://img.shields.io/badge/AI-Computer%20Vision-success)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-red)
@@ -219,7 +222,7 @@ The backend exposes REST endpoints for inference, model integration and synchron
 ## Clone Repository
 
 ```bash
-git clone https://github.com/RodrigoDiasDeOliveira/Object-Scanner.git
+git clone https://github.com/RodrigoDiasDeOliveira/Trimindslabs-Object-Scanner.git
 cd Object-Scanner
 ```
 
